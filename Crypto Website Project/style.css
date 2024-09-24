@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Kanit';
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: #fff;
+}
+nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px ;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgba(234, 234, 234, 0.725)
+}
+nav .btn{
+    color: #fff;
+    background: linear-gradient(to right,#ff960b, #9e5917);
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+nav .btn:hover{
+    background: linear-gradient(to right,#9e5917, #ff960b);
+    color: #fff;
+}
+.content{
+    margin-top: 12%;
+}
+.content h1{
+    font-size: 88px;
+    margin-bottom: 15px;
+    user-select: none;
+}
+.content h1 span{
+    background: -webkit-linear-gradient(#ff960b, #9e5917);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content p{
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 300;
+    user-select: none;
+}
+.content .btn{
+    display: inline-block;
+    margin-top: 30px;
+    background: linear-gradient(to right,#ff960b, #9e5917);
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.content .btn:hover{
+    background: linear-gradient(to right, #9e5917, #ff960b);
+}
+.coin-list{
+    position: absolute;
+    right: 10%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: #ff960b;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+.coin img{
+    width: 40px;
+    margin-right: 10px;
+}
