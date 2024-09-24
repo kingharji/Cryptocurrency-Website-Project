@@ -1,2 +1,3 @@
-# Cryptocurrency-Website-Project
-API isn't free anymore that's it's only HTML &amp; CSS
+<h1>Cryptocurrency Website ~Project</h1>
+<br>
+<a href="https://66f2025c468845414110fffa--brilliant-tulumba-af97ef.netlify.app">Go to Site</a>
